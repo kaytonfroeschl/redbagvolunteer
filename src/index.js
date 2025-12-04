@@ -3,20 +3,15 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import { Amplify } from "aws-amplify";
 import awsExports from "./aws-exports";
-import {
-  ApolloClient,
-  InMemoryCache,
-  ApolloProvider,
-  gql,
-} from "@apollo/client";
+import { ApolloClient, InMemoryCache, ApolloProvider, gql } from "@apollo/client";
 
 Amplify.configure(awsExports);
 
 const client = new ApolloClient({
-  uri: "https://bttl34e7ejbtbg3fs5y4qcz364.appsync-api.us-east-1.amazonaws.com/graphql",
+  uri: "https://k2ewq7jk6zf5ng7fdrf2zawgvm.appsync-api.us-east-1.amazonaws.com/graphql",
   cache: new InMemoryCache(),
   headers: {
-    "X-Api-Key": "da2-3rot2pwcd5fdpibb5irwrtnsuy",
+    "X-Api-Key": "da2-2zsrqvsflradtoonzwiywanrpm",
   },
   connectToDevTools: true,
 });

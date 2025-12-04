@@ -1,4 +1,22 @@
 {
+  "main": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-redbagbill-main-6e2a6-authRole",
+      "UnauthRoleArn": "arn:aws:iam::420627818090:role/amplify-redbagbill-main-6e2a6-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::420627818090:role/amplify-redbagbill-main-6e2a6-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-redbagbill-main-6e2a6-deployment",
+      "UnauthRoleName": "amplify-redbagbill-main-6e2a6-unauthRole",
+      "StackName": "amplify-redbagbill-main-6e2a6",
+      "StackId": "arn:aws:cloudformation:us-east-1:420627818090:stack/amplify-redbagbill-main-6e2a6/e7a38cf0-b40b-11ef-affe-0e2a5d7821b3",
+      "AmplifyAppId": "d17ljmc706a930"
+    },
+    "categories": {
+      "auth": {
+        "redbagbill65083cf0": {}
+      }
+    }
+  },
   "prod": {
     "awscloudformation": {
       "AuthRoleName": "amplify-redbagbill-prod-153705-authRole",
