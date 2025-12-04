@@ -3,7 +3,7 @@ import ReactDOM from "react-dom/client";
 import App from "./App";
 import { Amplify } from "aws-amplify";
 import awsExports from "./aws-exports";
-import { ApolloClient, InMemoryCache, ApolloProvider, gql } from "@apollo/client";
+import { ApolloClient, InMemoryCache, ApolloProvider } from "@apollo/client";
 
 Amplify.configure(awsExports);
 
